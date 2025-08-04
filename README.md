@@ -8,13 +8,13 @@ Este é um projeto **front-end** que replica (com melhorias) o site do **Leno Ap
 
 O Leno App é uma landing page moderna e responsiva, com seções bem definidas como:
 
-- Navbar com menu responsivo
-- Seção Hero (destaque do app)
-- Depoimentos de usuários
-- Funcionalidades (features) com ícones
-- Galeria de screenshots
-- Seção de download
-- Rodapé com redes sociais
+- Navbar com menu responsivo  
+- Seção Hero (destaque do app)  
+- Depoimentos de usuários  
+- Funcionalidades (features) com ícones  
+- Galeria de screenshots  
+- Seção de download  
+- Rodapé com redes sociais  
 
 ---
 
@@ -23,22 +23,44 @@ O Leno App é uma landing page moderna e responsiva, com seções bem definidas 
 O site agora conta com **modo escuro** ativável com um clique!
 
 ### ✨ Benefícios:
-- Conforto visual em ambientes com pouca luz
-- Visual moderno e acessível
-- Preferência salva com `localStorage` (tema se mantém entre visitas)
+- Conforto visual em ambientes com pouca luz  
+- Visual moderno e acessível  
+- Preferência salva com `localStorage` (tema se mantém entre visitas)  
 
 ---
 
 ## 🛠 Tecnologias Utilizadas
 
-- **HTML5** semântico
-- **CSS3** modular (reset, variáveis, componentes)
-- **JavaScript** para interações (menu mobile, dark mode)
-- **Font Awesome** para ícones
-- **Google Fonts** (`Open Sans`)
+- **HTML5** semântico  
+- **CSS3** modular (reset, variáveis, componentes)  
+- **JavaScript** para interações (menu mobile, dark mode)  
+- **Font Awesome** para ícones  
+- **Google Fonts** (`Open Sans`)  
 
 ---
 
+
+
+
 ## 📁 Estrutura de Diretórios
 
-# LenoApp
+```
+LenoAppWeb/
+├── index.html
+├── details.html
+├── js/
+│ ├── menu/
+│ │ └── menuActions.js
+│ ├── menuEvents.js
+│ ├── script.js
+│ ├── theme.js
+│ ├── themeEvents.js
+│ └── themeSystem.js
+├── css/
+│ ├── root.css
+│ ├── navbar.css
+│ ├── reset.css
+│ └── style.css
+├── images/
+└── README.md
+```

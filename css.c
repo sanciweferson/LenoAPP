@@ -200,10 +200,8 @@ background-color: transparent;
   transform: translateX(0);
 }
 
-@media (max-width: 768px) {
-.navbar{
-  padding: 2rem 2rem;
-}
+@media (max-width: 460px) {
+
 
   #menu-toggle {
     display: block;
@@ -215,14 +213,13 @@ background-color: transparent;
     display: none;
   }
 #side-menu{
-  width: 85%;
-padding: 1rem 1rem;
+
   display: block;
 
 
 }
 .flex{
-  padding: 1.75rem;
+  padding: 1.5rem 0.75rem;
 align-items: flex-start;
 justify-content: space-between;
  display: flex ;
@@ -238,19 +235,6 @@ justify-content: space-between;
 
 #toggle-mobile{
 display: block;
-
-
- }}
-
-
- @media (max-width: 430px) {
-.navbar__menu-link{
-  font-size: 1.2rem;
-}
-
-.navbar{
-padding:  1rem;
-
 
 
  }}
