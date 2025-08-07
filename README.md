@@ -49,6 +49,7 @@ LenoAppWeb/
 ├── index.html
 ├── details.html
 ├── js/
+├── script.js
 │ ├── menu/
 │ │ └── menuActions.js
 │ ├── menuEvents.js
